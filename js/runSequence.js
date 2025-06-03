@@ -1659,6 +1659,12 @@ async function mainRunSequence(xlsxPath, seqPath) {
   // });
 }
 
-const xlsxPath = "./data/results.xlsx";
-const seqCsvPath = "./data/sequence.csv";
-mainRunSequence(xlsxPath, seqCsvPath);
+// const xlsxPath = "./data/results.xlsx";
+const xlsxPath = "./data/Example_NTA_NTA_WebApp_QAQC.xlsx";
+
+// const seqCsvPath = "./data/sequence.csv";
+// mainRunSequence(xlsxPath, seqCsvPath);
+
+// const seqPath = "./data/sequence.csv";
+const seqPath = "./data/sequence 1.csv";
+mainRunSequence(xlsxPath, seqPath);
